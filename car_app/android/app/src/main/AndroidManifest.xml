@@ -3,6 +3,8 @@
 
     <!-- Provide required visibility configuration for API level 30 and above -->
     <queries>
+        <uses-permission android:name="android.permission.INTERNET" />
+
         <!-- If your app checks for SMS support -->
         <intent>
             <action android:name="android.intent.action.VIEW" />
