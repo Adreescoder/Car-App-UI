@@ -10,6 +10,10 @@ class Home_ScreenPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Container(
+      alignment: Alignment.center,
+      color: Colors.indigo,
+      child: Text("Telegram mini app"),
+    );
   }
 }
