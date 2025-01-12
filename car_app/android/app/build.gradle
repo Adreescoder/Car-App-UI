@@ -31,6 +31,7 @@ android {
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+
     }
 
     buildTypes {
@@ -40,6 +41,10 @@ android {
             signingConfig = signingConfigs.debug
         }
     }
+}
+dependencies {
+    implementation platform('com.google.firebase:firebase-bom:32.0.0')
+    implementation 'com.google.firebase:firebase-analytics'
 }
 
 flutter {
