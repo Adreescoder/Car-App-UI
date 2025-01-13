@@ -47,14 +47,14 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyChHZN_16sjqy3wJ2TPwgxQ1Hc00e6OoEA',
-    appId: '1:210601199671:web:364b91917639bdbddfd7b2',
+    apiKey: 'AIzaSyDcsdBlA-FdDLUUGHcvu21IpPoaGHQ8KFU',
+    appId: '1:210601199671:web:9ea0002d5cd5b7cddfd7b2',
     messagingSenderId: '210601199671',
     projectId: 'moon-dark-e4bde',
     authDomain: 'moon-dark-e4bde.firebaseapp.com',
     databaseURL: 'https://moon-dark-e4bde-default-rtdb.firebaseio.com',
     storageBucket: 'moon-dark-e4bde.appspot.com',
-    measurementId: 'G-DP0WMMX2KP',
+    measurementId: 'G-QQ3YNGKPRK',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
