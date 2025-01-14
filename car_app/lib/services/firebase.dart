@@ -1,8 +1,6 @@
+/*
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-
-import '../screens/home_screen/view.dart';
-import '../screens/sigup/view.dart';
 
 class RootScreen extends StatelessWidget {
   const RootScreen({Key? key}) : super(key: key);
@@ -23,3 +21,4 @@ class RootScreen extends StatelessWidget {
     );
   }
 }
+*/

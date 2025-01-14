@@ -1,1 +1,6 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"moon-dark-e4bde","appId":"1:210601199671:android:8a7a106c6b1dd588dfd7b2","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"moon-dark-e4bde","configurations":{"android":"1:210601199671:android:8a7a106c6b1dd588dfd7b2","web":"1:210601199671:web:9ea0002d5cd5b7cddfd7b2"}}}}}}
+{
+  "firestore": {
+    "rules": "y",
+    "indexes": "y"
+  }
+}
