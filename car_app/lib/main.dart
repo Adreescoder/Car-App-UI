@@ -1,10 +1,7 @@
-import 'package:car_app/services/firebase.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-
-void main (){
+void main() {
   runApp(RabbitCoinApp());
 }
 
@@ -26,8 +23,6 @@ class RabbitCoinApp extends StatelessWidget {
   }
 }
 
-
-
 class SignInPage2 extends StatelessWidget {
   const SignInPage2({Key? key}) : super(key: key);
 
@@ -39,24 +34,24 @@ class SignInPage2 extends StatelessWidget {
         body: Center(
             child: isSmallScreen
                 ? Column(
-              mainAxisSize: MainAxisSize.min,
-              children: const [
-                _Logo(),
-                _FormContent(),
-              ],
-            )
+                    mainAxisSize: MainAxisSize.min,
+                    children: const [
+                      _Logo(),
+                      _FormContent(),
+                    ],
+                  )
                 : Container(
-              padding: const EdgeInsets.all(32.0),
-              constraints: const BoxConstraints(maxWidth: 800),
-              child: Row(
-                children: const [
-                  Expanded(child: _Logo()),
-                  Expanded(
-                    child: Center(child: _FormContent()),
-                  ),
-                ],
-              ),
-            )));
+                    padding: const EdgeInsets.all(32.0),
+                    constraints: const BoxConstraints(maxWidth: 800),
+                    child: Row(
+                      children: const [
+                        Expanded(child: _Logo()),
+                        Expanded(
+                          child: Center(child: _FormContent()),
+                        ),
+                      ],
+                    ),
+                  )));
   }
 }
 
@@ -79,9 +74,9 @@ class _Logo extends StatelessWidget {
             style: isSmallScreen
                 ? Theme.of(context).textTheme.headlineSmall
                 : Theme.of(context)
-                .textTheme
-                .headlineMedium
-                ?.copyWith(color: Colors.black),
+                    .textTheme
+                    .headlineMedium
+                    ?.copyWith(color: Colors.black),
           ),
         )
       ],
@@ -120,7 +115,7 @@ class __FormContentState extends State<_FormContent> {
                 }
 
                 bool emailValid = RegExp(
-                    r"^[a-zA-Z0-9.a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9]+\.[a-zA-Z]+")
+                        r"^[a-zA-Z0-9.a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9]+\.[a-zA-Z]+")
                     .hasMatch(value);
                 if (!emailValid) {
                   return 'Please enter a valid email';
@@ -208,3 +203,5 @@ class __FormContentState extends State<_FormContent> {
 
   Widget _gap() => const SizedBox(height: 16);
 }
+
+/// ss
